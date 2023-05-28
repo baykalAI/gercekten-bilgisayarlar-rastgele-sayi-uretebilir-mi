@@ -1,0 +1,8 @@
+import datetime
+
+def rastgele_sayı_fonsiyonu(başlangıç, bitiş):
+    
+    return int((((datetime.datetime.now().second) / 60) * (bitiş - başlangıç + 1)) + başlangıç)
+
+oluşan_rastgele_olmayan_rastgele_sayı = rastgele_sayı_fonsiyonu(1, 100)
+print(oluşan_rastgele_olmayan_rastgele_sayı)
